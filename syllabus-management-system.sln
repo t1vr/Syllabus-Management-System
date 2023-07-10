@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS-API", "SMS-API\SMS-API.csproj", "{AEEF94C6-77EF-4D03-B5CF-07011DF37911}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{F5BE104B-4990-4B6C-A9A9-96AE6FDB4385}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{AFC5016B-B8B9-4D34-82BF-44930888CA3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEEF94C6-77EF-4D03-B5CF-07011DF37911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEEF94C6-77EF-4D03-B5CF-07011DF37911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEEF94C6-77EF-4D03-B5CF-07011DF37911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEEF94C6-77EF-4D03-B5CF-07011DF37911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5BE104B-4990-4B6C-A9A9-96AE6FDB4385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5BE104B-4990-4B6C-A9A9-96AE6FDB4385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5BE104B-4990-4B6C-A9A9-96AE6FDB4385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5BE104B-4990-4B6C-A9A9-96AE6FDB4385}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFC5016B-B8B9-4D34-82BF-44930888CA3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC5016B-B8B9-4D34-82BF-44930888CA3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC5016B-B8B9-4D34-82BF-44930888CA3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC5016B-B8B9-4D34-82BF-44930888CA3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D1C9182-A17A-40A6-A288-AC88F45C65EE}
+	EndGlobalSection
+EndGlobal
