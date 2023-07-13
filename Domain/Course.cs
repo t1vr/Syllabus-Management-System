@@ -1,6 +1,6 @@
 ﻿namespace Domain;
 
-public class Course : AuditableEntity
+public class Course : AuditableEntity<int>
 {
     public string CourseNo { get; set; }
     public string Name { get; set; }

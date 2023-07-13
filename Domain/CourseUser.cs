@@ -1,6 +1,6 @@
 ﻿namespace Domain;
 
-public class CourseUser
+public class CourseUser : AuditableEntity
 {
     public Guid AppUserId { get; set; }
     public AppUser AppUser { get; set; }
