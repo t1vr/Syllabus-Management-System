@@ -10,9 +10,4 @@ public abstract class AuditableEntity<T> : BaseEntity<T>
     public DateTime CreatedOn { get; private set; }
     public Guid LastModifiedBy { get; set; }
     public DateTime? LastModifiedOn { get; set; }
-
-    protected AuditableEntity()
-    {
-        CreatedOn = DateTime.UtcNow;
-    }
 }
